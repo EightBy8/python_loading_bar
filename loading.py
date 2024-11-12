@@ -1,10 +1,5 @@
 import math
 import colorama
-
-
-if True:
-    print("True")
-
 #Adding Comment to line 3
 colorama.init()
 
@@ -23,4 +18,5 @@ for i, x in enumerate(numbers):
     progress_bar(i + 1, len(numbers))
 
 print(colorama.Style.RESET_ALL)
+print("Hello")
 
