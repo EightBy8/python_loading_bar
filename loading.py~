@@ -18,4 +18,5 @@ for i, x in enumerate(numbers):
     progress_bar(i + 1, len(numbers))
 
 print(colorama.Style.RESET_ALL)
+print("Hello")
 

@@ -3,6 +3,9 @@ import colorama
 #Adding Comment to line 3
 colorama.init()
 
+if True:
+    print("True")
+
 def progress_bar(progress, total, color=colorama.Fore.GREEN):
     percent = 100 * (progress / float(total))
     bar = '█' * int(percent) + '-' * (100 - int(percent))
