@@ -1,6 +1,6 @@
 import math
 import colorama
-
+#Adding Comment to line 3
 colorama.init()
 
 def progress_bar(progress, total, color=colorama.Fore.GREEN):
