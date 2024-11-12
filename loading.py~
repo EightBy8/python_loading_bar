@@ -1,10 +1,5 @@
 import math
 import colorama
-
-
-if True:
-    print("True")
-
 #Adding Comment to line 3
 colorama.init()
 
